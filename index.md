@@ -48,6 +48,7 @@ Other X-Frame Options: SAMEORIGIN and ALLOW-FROM-%url%
 
 Framebuster :
 In framebuster a similar script is entered in the html page:
+```
 <script>
 	if(self == top) {
 		document.documentElement.style.display = ‘block’ ;
@@ -55,3 +56,4 @@ In framebuster a similar script is entered in the html page:
 		top.location = self.location;
 	}
 </script>
+```
